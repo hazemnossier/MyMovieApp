@@ -11,10 +11,10 @@ import android.widget.RelativeLayout;
  * Created by Muhammad on 20/11/2016.
  */
 
-public class ListAdapterRecycle extends RecyclerView.Adapter<ListAdapterRecycle.ViewHolder>{
+public class ListAdapterRecycle extends RecyclerView.Adapter<ListAdapterRecycle.ViewHolder> {
 
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder {
 
         ImageView flickerImageView;
         RelativeLayout flickerImageContainer;
@@ -23,9 +23,10 @@ public class ListAdapterRecycle extends RecyclerView.Adapter<ListAdapterRecycle.
 
         public ViewHolder(View itemView) {
             super(itemView);
-            flickerImageView = (ImageView) itemView.findViewById(R.id.flickerImageView);
-            flickerImageContainer = (RelativeLayout) itemView.findViewById(R.id.ImageContainer);
-            progressBar = (ProgressBar) itemView.findViewById(R.id.progressBar);
-            favBtn = (ImageButton) itemView.findViewById(R.id.favIcon);
+            //   flickerImageView = (ImageView) itemView.findViewById(R.id.flickerImageView);
+            //  flickerImageContainer = (RelativeLayout) itemView.findViewById(R.id.ImageContainer);
+            // progressBar = (ProgressBar) itemView.findViewById(R.id.progressBar);
+            //favBtn = (ImageButton) itemView.findViewById(R.id.favIcon);
         }
+    }
 }
